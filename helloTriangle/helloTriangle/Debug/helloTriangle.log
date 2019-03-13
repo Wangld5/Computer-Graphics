@@ -1,0 +1,31 @@
+﻿  glad.c
+  main.cpp
+main.obj : error LNK2019: 无法解析的外部符号 _glfwInit，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwTerminate，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwWindowHint，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwCreateWindow，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwWindowShouldClose，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwSetWindowShouldClose，该符号在函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwSetFramebufferSizeCallback，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwPollEvents，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwGetKey，该符号在函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwMakeContextCurrent，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwSwapBuffers，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwGetProcAddress，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "struct ImGuiContext * __cdecl ImGui::CreateContext(struct ImFontAtlas *)" (?CreateContext@ImGui@@YAPAUImGuiContext@@PAUImFontAtlas@@@Z)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl ImGui::DestroyContext(struct ImGuiContext *)" (?DestroyContext@ImGui@@YAXPAUImGuiContext@@@Z)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "struct ImGuiIO & __cdecl ImGui::GetIO(void)" (?GetIO@ImGui@@YAAAUImGuiIO@@XZ)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl ImGui::Render(void)" (?Render@ImGui@@YAXXZ)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "struct ImDrawData * __cdecl ImGui::GetDrawData(void)" (?GetDrawData@ImGui@@YAPAUImDrawData@@XZ)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl ImGui::StyleColorsDark(struct ImGuiStyle *)" (?StyleColorsDark@ImGui@@YAXPAUImGuiStyle@@@Z)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl ImGui::Begin(char const *,bool *,int)" (?Begin@ImGui@@YA_NPBDPA_NH@Z)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl ImGui::Checkbox(char const *,bool *)" (?Checkbox@ImGui@@YA_NPBDPA_N@Z)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl ImGui::ColorEdit3(char const *,float * const,int)" (?ColorEdit3@ImGui@@YA_NPBDQAMH@Z)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl ImGui_ImplGlfw_InitForOpenGL(struct GLFWwindow *,bool)" (?ImGui_ImplGlfw_InitForOpenGL@@YA_NPAUGLFWwindow@@_N@Z)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl ImGui_ImplGlfw_Shutdown(void)" (?ImGui_ImplGlfw_Shutdown@@YAXXZ)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl ImGui_ImplGlfw_NewFrame(void)" (?ImGui_ImplGlfw_NewFrame@@YAXXZ)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl ImGui_ImplOpenGL3_Shutdown(void)" (?ImGui_ImplOpenGL3_Shutdown@@YAXXZ)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl ImGui_ImplOpenGL3_NewFrame(void)" (?ImGui_ImplOpenGL3_NewFrame@@YAXXZ)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl ImGui_ImplOpenGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplOpenGL3_RenderDrawData@@YAXPAUImDrawData@@@Z)，该符号在函数 _main 中被引用
+D:\VSWorkSpace\glfw-3.2.1.bin.WIN64\lib-vc2015\glfw3.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\HW\CG\helloTriangle\Debug\helloTriangle.exe : fatal error LNK1120: 27 个无法解析的外部命令
