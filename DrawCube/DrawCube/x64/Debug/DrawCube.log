@@ -1,0 +1,12 @@
+﻿  main.cpp
+d:\hw\cg\computer-graphics\drawcube\drawcube\main.cpp(224): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\hw\cg\computer-graphics\drawcube\drawcube\main.cpp(336): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\hw\cg\computer-graphics\drawcube\drawcube\main.cpp(337): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\hw\cg\computer-graphics\drawcube\drawcube\main.cpp(409): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\hw\cg\computer-graphics\drawcube\drawcube\main.cpp(410): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\hw\cg\computer-graphics\drawcube\drawcube\main.cpp(414): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\hw\cg\computer-graphics\drawcube\drawcube\main.cpp(415): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\hw\cg\computer-graphics\drawcube\drawcube\main.cpp(417): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\hw\cg\computer-graphics\drawcube\drawcube\main.cpp(418): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\hw\cg\computer-graphics\drawcube\drawcube\main.cpp(425): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  DrawCube.vcxproj -> D:\HW\CG\Computer-Graphics\DrawCube\x64\Debug\DrawCube.exe
