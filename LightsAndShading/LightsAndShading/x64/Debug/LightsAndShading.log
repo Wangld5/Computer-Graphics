@@ -1,10 +1,10 @@
 ﻿  main.cpp
 d:\hw\cg\computer-graphics\lightsandshading\lightsandshading\main.cpp(167): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-d:\hw\cg\computer-graphics\lightsandshading\lightsandshading\main.cpp(334): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\hw\cg\computer-graphics\lightsandshading\lightsandshading\main.cpp(335): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\hw\cg\computer-graphics\lightsandshading\lightsandshading\main.cpp(339): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-d:\hw\cg\computer-graphics\lightsandshading\lightsandshading\main.cpp(340): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-d:\hw\cg\computer-graphics\lightsandshading\lightsandshading\main.cpp(342): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\hw\cg\computer-graphics\lightsandshading\lightsandshading\main.cpp(343): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\hw\cg\computer-graphics\lightsandshading\lightsandshading\main.cpp(350): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+d:\hw\cg\computer-graphics\lightsandshading\lightsandshading\main.cpp(337): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\hw\cg\computer-graphics\lightsandshading\lightsandshading\main.cpp(338): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\hw\cg\computer-graphics\lightsandshading\lightsandshading\main.cpp(342): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\hw\cg\computer-graphics\lightsandshading\lightsandshading\main.cpp(343): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\hw\cg\computer-graphics\lightsandshading\lightsandshading\main.cpp(345): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\hw\cg\computer-graphics\lightsandshading\lightsandshading\main.cpp(346): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\hw\cg\computer-graphics\lightsandshading\lightsandshading\main.cpp(353): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
   LightsAndShading.vcxproj -> D:\HW\CG\Computer-Graphics\LightsAndShading\x64\Debug\LightsAndShading.exe

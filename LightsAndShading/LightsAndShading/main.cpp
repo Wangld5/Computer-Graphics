@@ -200,11 +200,14 @@ int main()
 		{
 			static float ambient;
 			static float specular;
+			static float diff;
 			Begin("change some independent variable");
 			ImGui::Text("change the ambient strength");
 			ImGui::SliderFloat("ambient strength", &ambient, 0.0f, 5.0f);
 			ImGui::Text("change the specular strength");
 			ImGui::SliderFloat("specular strength", &specular, 0.0f, 5.0f);
+			ImGui::Text("change the diff parameter");
+			ImGui::SliderFloat("diff Para", &diff, 0.0f, 100.0f);
 			ImGui::End();
 
 			lightShader.use();

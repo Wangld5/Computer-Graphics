@@ -12,6 +12,7 @@ uniform vec3 viewPos;
 //independent variable
 uniform float ambient_Strength;
 uniform float specular_Strength;
+uniform float diff_Change;
 
 
 void main()
@@ -30,7 +31,8 @@ void main()
 	float specularStrength = specular_Strength;
 	vec3 viewDir = normalize(viewPos - FragPos);
 	vec3 reflectDir = reflect(-lightDir, norm);
-	float spec = pow(max(dot(viewDir, reflectDir), 0.0), 32);
+	vec3 halfwayDir = normalize(viewDir+lightDir);
+	float spec = pow(max(dot(norm, halfwayDir), 0.0), 32);
 	vec3 specular = specularStrength * spec * lightColor;
             
     vec3 result = (ambient + diffuse + specular) * objectColor;
